@@ -1,0 +1,42 @@
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 28px 32px 8px;
+}
+
+.page-header-text {
+  max-width: 620px;
+}
+
+.page-header-title {
+  margin: 0 0 10px;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.page-header-desc {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.create-lesson-btn {
+  flex-shrink: 0;
+  background: var(--accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.create-lesson-btn:hover {
+  filter: brightness(1.08);
+}

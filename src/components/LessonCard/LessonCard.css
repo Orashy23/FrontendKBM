@@ -1,0 +1,100 @@
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface-bg);
+  border: 1px solid var(--surface-border);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.lesson-card-cover {
+  position: relative;
+  height: 190px;
+  background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
+}
+
+.lesson-card-pill {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.lesson-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+}
+
+.lesson-card-author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.lesson-card-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--text-on-accent);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.lesson-card-author-name {
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.lesson-card-rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.lesson-card-stars {
+  color: var(--star);
+  letter-spacing: 2px;
+}
+
+.lesson-card-reviews {
+  color: var(--text-faint);
+}
+
+.lesson-card-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.lesson-card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4px;
+  padding: 12px 16px;
+  background: transparent;
+  border: 1px solid var(--surface-border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.lesson-card-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
