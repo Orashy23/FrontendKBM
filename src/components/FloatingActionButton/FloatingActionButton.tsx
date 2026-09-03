@@ -1,10 +1,14 @@
 import './FloatingActionButton.css'
 
+
 interface FloatingActionButtonProps {
   onClick?: () => void
 }
 
 function FloatingActionButton({ onClick }: FloatingActionButtonProps) {
+
+
+
   return (
     <button className="fab" aria-label="Open AI assistant" onClick={onClick}>
       <svg
